@@ -5,6 +5,6 @@ This is the basic clone of the Snaptube app.
 # To install all the dependencies:-
 npm i
 
-# To start the app using exxpo:-
+# To start the app using expo:-
 expo start
 
