@@ -3,9 +3,7 @@ import { StyleSheet, Text, TextInput, View, TouchableWithoutFeedback, Keyboard }
 
 export default function Home() {
   return (
-    <TouchableWithoutFeedback onClick={() => {
-      Keyboard.dismiss;
-    }}>
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={styles.container}>
 
         <View style={styles.header}>

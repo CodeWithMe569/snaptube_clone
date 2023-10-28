@@ -5,8 +5,9 @@ import { View } from 'react-native'
 export default function View() {
   return (
     <View>
+
       <Home />
+      
     </View>
   );
 }
-
